@@ -1,0 +1,30 @@
+GhgSatApp package
+=================
+
+Submodules
+----------
+
+GhgSatApp.main module
+---------------------
+
+.. automodule:: GhgSatApp.main
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+GhgSatApp.tools module
+----------------------
+
+.. automodule:: GhgSatApp.tools
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: GhgSatApp
+   :members:
+   :undoc-members:
+   :show-inheritance:

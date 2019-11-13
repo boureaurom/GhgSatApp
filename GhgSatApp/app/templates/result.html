@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Results</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+            <div class="center-on-page" id="fusioneddiv">
+                
+                
+                   <img src="{{ url_for('static', filename='fusioned.png') }}" id="fusioned" class="imgFullSize" onclick="changeClass()"> 
+                
+            </div>
+        
+		<script type="text/javascript">
+			function changeClass(){
+				if(document.getElementById("fusioneddiv").className == "divFullSize"){
+					document.getElementById("fusioneddiv").className = "center-on-page";
+				} else if(document.getElementById("fusioneddiv").className == "center-on-page"){
+					document.getElementById("fusioneddiv").className = "divFullSize";
+				}
+			}
+		</script>
+    </body>
+</html>

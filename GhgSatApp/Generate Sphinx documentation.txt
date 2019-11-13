@@ -1,0 +1,23 @@
+﻿How to generate new documentation with Sphinx :
+
+- open Cmd
+
+- After entering venv, go to GhgSatApp folder
+
+- in docs/build, create a new folder. It's recommended to include the version number in the folder name.
+
+- return to GhgSatApp folder
+
+- run 'sphinx-build -b html docs/source docs/build/xxxxx' where xxxxx is the name of the folder you created.
+
+- It should give you feedback on the progress and show errors.
+
+- 'cd docs'
+
+- 'make html'
+
+- 'cd build' now there should be another folder named html 
+
+- 'cd html' it should contain numerous HTML files, open index.html to open the homepage of the documentation
+
+END
